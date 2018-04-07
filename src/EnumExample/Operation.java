@@ -3,7 +3,7 @@ import java.util.Map;
 import java.util.stream.*;
 import java.util.Optional;
 public enum Operation {
-    PPLUS("+") {
+    PLUS("+") {
         public double apply(double x, double y) { return x + y; }
     },
     MINUS("-") {
